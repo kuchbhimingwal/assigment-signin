@@ -7,6 +7,8 @@ export default function Home() {
     <div>
       <button onClick={() => signIn()}>Signin</button>
 {JSON.stringify(session.data?.user)}
+
+<button onClick={() => signOut()}>Sign out</button>
     </div>
   );
 }
